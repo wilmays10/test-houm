@@ -20,4 +20,4 @@ python manage.py migrate
 python manage.py loaddata init_data/db.json
 
 # Inicializar server local
-python manage.runserver
+python manage.py runserver
