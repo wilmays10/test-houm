@@ -46,7 +46,7 @@ Parámetro obligatorio:
 Se debe pasar por método GET el id de algún houmer, por ejemplo:
 http://localhost:8000/trackings/?id=1
 
-# Coordenadas de las propiedades que visitó cuanto tiempo se quedó en cada una:
+# Coordenadas de las propiedades que visitó y cuanto tiempo se quedó en cada una:
 http://localhost:8000/properties/
 
 En este caso, los parámetros obligatorios son:
