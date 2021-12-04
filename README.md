@@ -66,3 +66,8 @@ Parámetros obligatorios:
 
 Ejemplo:
 http://localhost:8000/velocities/?id_houmer=1&date=4-12-2021&param=10
+
+# Datos de administrador:
+Se proporciona datos de ejemplo que se cargaran al inicio. De todas formas, si quiere agregar a modificar datos se creo un usuario para esto:
+user: "administardor"
+password: "administrador"
