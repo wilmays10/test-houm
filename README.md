@@ -37,7 +37,8 @@ Una vez que esté ejecutandosé el servidor local, se puede acceder a las API's:
 
 http://localhost:8000/
 
-# Coordenadas de un Houmer:
+Coordenadas de un Houmer:
+-------------------------
 http://localhost:8000/trackings/
 
 Parámetro obligatorio:
@@ -46,7 +47,8 @@ Parámetro obligatorio:
 Se debe pasar por método GET el id de algún houmer, por ejemplo:
 http://localhost:8000/trackings/?id=1
 
-# Coordenadas de las propiedades que visitó y cuanto tiempo se quedó en cada una:
+Coordenadas de las propiedades que visitó y cuanto tiempo se quedó en cada una:
+-------------------------------------------------------------------------------
 http://localhost:8000/properties/
 
 En este caso, los parámetros obligatorios son:
@@ -56,7 +58,8 @@ En este caso, los parámetros obligatorios son:
 Ejemplo:
 http://localhost:8000/properties/?id_houmer=1&date=04-12-2021
 
-# Momentos en que el houmer se trasladó con una velocidad superior a cierto parámetro:
+Momentos en que el houmer se trasladó con una velocidad superior a cierto parámetro:
+------------------------------------------------------------------------------------
 http://localhost:8000/velocities/
 
 Parámetros obligatorios:
