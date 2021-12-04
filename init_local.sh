@@ -3,7 +3,7 @@
 # entorno virtual
 sudo apt update
 sudo apt install python3-pip
-python -m venv env
+python3 -m venv env
 source env/bin/activate
 
 # instalar dependencias
